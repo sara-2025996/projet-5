@@ -1,0 +1,70 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "nom": "Ali",
+      "prenom": "Ahmed",
+      "poste": "Développeur",
+      "departement": "IT",
+      "salaire": 8000,
+      "dateEmbauche": "2020-05-12",
+      "email": "ali.ahmed@example.com",
+      "telephone": "0600000001"
+    },
+    {
+      "id": 2,
+      "nom": "Sara",
+      "prenom": "Benkirane",
+      "poste": "Commercial",
+      "departement": "Commercial",
+      "salaire": 6500,
+      "dateEmbauche": "2021-03-20",
+      "email": "sara.benkirane@example.com",
+      "telephone": "0600000002"
+    },
+    {
+      "id": 3,
+      "nom": "Youssef",
+      "prenom": "El Hachimi",
+      "poste": "RH Manager",
+      "departement": "RH",
+      "salaire": 9000,
+      "dateEmbauche": "2019-07-10",
+      "email": "youssef.hachimi@example.com",
+      "telephone": "0600000003"
+    },
+    {
+      "id": 4,
+      "nom": "Fatima",
+      "prenom": "Zahra",
+      "poste": "Finance Analyst",
+      "departement": "Finance",
+      "salaire": 7500,
+      "dateEmbauche": "2022-01-15",
+      "email": "fatima.zahra@example.com",
+      "telephone": "0600000004"
+    },
+    {
+      "id": 5,
+      "nom": "Hassan",
+      "prenom": "El Idrissi",
+      "poste": "Marketing Specialist",
+      "departement": "Marketing",
+      "salaire": 7000,
+      "dateEmbauche": "2021-09-05",
+      "email": "hassan.idrissi@example.com",
+      "telephone": "0600000005"
+    },
+    {
+      "id": 6,
+      "nom": "Khadija",
+      "prenom": "Bouziane",
+      "poste": "Production Manager",
+      "departement": "Production",
+      "salaire": 8500,
+      "dateEmbauche": "2018-11-30",
+      "email": "khadija.bouziane@example.com",
+      "telephone": "0600000006"
+    }
+  ]
+}
