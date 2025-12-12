@@ -51,8 +51,9 @@ export const postEmployees=(newEmploye)=>(dispatch)=>{
     .catch(error=>console.error('error',error.message))
 }
 //modifier
-export const EditeEmployees=(id,edite)=>(dispatch)=>{
-    axios.put(`${url}/${id}`,edite)
+export const EditeEmployees=(employee)=>(dispatch)=>{
+    const { id, ...data } = employee;
+    axios.put(`${url}/${id}`,data)
     .then(responce=>dispatch(UpdateEmploye(responce.data)))
     .catch(error=>console.error('error',error.message))
 
