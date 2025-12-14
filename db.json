@@ -6,9 +6,9 @@
       "poste": "Développeur",
       "departement": "IT",
       "salaire": 9000,
-      "dateEmbauche": "2019/04/12",
+      "dateEmbauche": "2019/12/31",
       "email": "youssef.amrani@example.com",
-      "telephone": "0600000010",
+      "telephone": "0600000001",
       "id": "1"
     },
     {
@@ -259,7 +259,7 @@
       "poste": "Analyste Financier",
       "departement": "Finance",
       "salaire": 9700,
-      "dateEmbauche": "2018/12/12",
+      "dateEmbauche": "2018/12/20",
       "email": "idriss.bakkali@example.com",
       "telephone": "0600000033",
       "id": "24"
@@ -270,11 +270,21 @@
       "poste": "Commerciale",
       "departement": "Commercial",
       "salaire": 6000,
-      "dateEmbauche": "2022/12/30",
+      "dateEmbauche": "2022/12/29",
       "email": "dounia.chaoui@example.com",
       "telephone": "0600000034",
       "id": "25"
+    },
+    {
+      "id": "9292",
+      "nom": "abkout",
+      "prenom": "Ahmed",
+      "email": "sara.bouzekri2006@gmail.com",
+      "telephone": "0600000015",
+      "poste": "Développeur",
+      "departement": "IT",
+      "salaire": "011111",
+      "dateEmbauche": "2023/02/03"
     }
-  
   ]
 }
