@@ -63,8 +63,6 @@ const anni = moisActuelle.map(emp => {
 
 
   //  matricule 
-  const matricule = (id) =>( `EMP${id.toString().padStart(4, '0')}`);
-
   return (
     <>
     <Navbar/>
@@ -74,19 +72,19 @@ const anni = moisActuelle.map(emp => {
       
       <div className="row text-center mb-4">
         <div className="col-md-4">
-          <div className="alert alert-warning p-3 shadow">
+          <div className="alert alert-primary p-3 shadow">
             <h5>Effectif total</h5>
             <h3>{totalEmployees}</h3>
           </div>
         </div>
         <div className="col-md-4">
-          <div className="alert alert-warning p-3 shadow">
+          <div className="alert alert-primary p-3 shadow">
             <h5>Masse salariale</h5>
             <h3>{totalSalary} DH</h3>
           </div>
         </div>
         <div className="col-md-4">
-          <div className="alert alert-warning p-3 shadow">
+          <div className="alert alert-primary p-3 shadow">
             <h5>Salaire moyen</h5>
             <h3>{averageSalary} DH</h3>
           </div>
@@ -101,7 +99,7 @@ const anni = moisActuelle.map(emp => {
               <strong>{l.departement} ({l.nbr})</strong>
               <div className="progress">
                 <div
-                  className="progress-bar bg-warning "
+                  className="progress-bar bg-primary "
                   role="progressbar"
                   style={{ width:totalEmployees? `${(l.nbr / totalEmployees) * 100}%`: "0%" }}
                 ></div>
@@ -119,7 +117,7 @@ const anni = moisActuelle.map(emp => {
             {anni.map(emp => (
               <li key={emp.id} className="list-group-item d-flex justify-content-between align-items-center">
                 {emp.nom} {emp.prenom} - {emp.anciennete}
-                <span className="badge bg-dark">{matricule(emp.id)}</span>
+                <span className="badge bg-dark">{`EMP${Number(emp.id) + 1}`}</span>
               </li>
             ))}
           </ul>

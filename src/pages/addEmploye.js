@@ -34,6 +34,11 @@ const AddEmploye = () => {
         setFormData({...formData,[name]:value})
         
     }
+
+    const handleAnnuler = () => {
+    navigate("/employees/list"); 
+    };
+
     const handelSubmit=(e)=>{
     const errorData={}
 
@@ -161,6 +166,7 @@ const AddEmploye = () => {
 
       </div>
     <input type="submit" className="btn btn-primary m-4"/>
+    <button type="button" className="btn btn-secondary m-4 ms-2"  onClick={handleAnnuler} > Annuler</button>
 
     </div>
 

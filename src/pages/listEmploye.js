@@ -24,7 +24,7 @@ const List = () => {
     <Navbar/>
 
     <div className="container-xl mt-4">
-        <h2 className="text-center">list des employees ({nbr})
+        <h2 className="text-center">list des employés ({nbr})
 
         </h2>
         <button onClick={() => navigate(`/employees/add`)} className="btn btn-outline-primary mb-2">
